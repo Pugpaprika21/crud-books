@@ -1,0 +1,26 @@
+project-name/
+│
+├── go.mod
+├── go.sum
+│
+├── main.go
+│
+├── controllers/
+│   ├── example_controller.go
+│   └── ...
+│
+├── models/
+│   ├── example_model.go
+│   └── ...
+│
+├── routes/
+│   ├── routes.go
+│   └── ...
+│
+├── middlewares/
+│   ├── middleware.go
+│   └── ...
+│
+└── config/
+    ├── config.go
+    └── ...
