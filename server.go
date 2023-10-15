@@ -9,7 +9,7 @@ import (
 
 func main() {
 	engine := html.New("./views", ".html")
-	engine.AddFunc("rowsNumber", func(i int) int {
+	engine.AddFunc("RowsNumber", func(i int) int {
 		return i + 1
 	})
 
