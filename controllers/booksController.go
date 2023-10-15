@@ -31,5 +31,7 @@ func GetBooks(c *fiber.Ctx) error {
 		booksList = append(booksList, books)
 	}
 
-	return c.JSON(booksList)
+	return c.Render("index", fiber.Map{
+		"Books": booksList,
+	})
 }

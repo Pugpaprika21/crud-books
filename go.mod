@@ -14,6 +14,9 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/gofiber/fiber/v2 v2.49.2 // indirect
+	github.com/gofiber/template v1.8.2 // indirect
+	github.com/gofiber/template/html/v2 v2.0.5 // indirect
+	github.com/gofiber/utils v1.1.0 // indirect
 	github.com/gohugoio/hugo v0.111.3 // indirect
 	github.com/google/uuid v1.3.1 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
