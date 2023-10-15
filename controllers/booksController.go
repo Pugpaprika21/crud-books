@@ -1,14 +1,14 @@
 package booksController
 
 import (
-	"go-basic/helpers"
+	database "go-basic/helpers"
 	BooksModel "go-basic/models"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
 )
 
-var db, _ = helpers.DatabaseConfig()
+var db, _ = database.DBConnection()
 
 func GetBooks(c *fiber.Ctx) error {
 	res, err := db.Query("select * from books")

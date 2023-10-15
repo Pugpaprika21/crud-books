@@ -1,4 +1,4 @@
-package helpers
+package database
 
 import (
 	"database/sql"
@@ -10,7 +10,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-func DatabaseConfig() (*sql.DB, error) {
+func DBConnection() (*sql.DB, error) {
 	err := godotenv.Load("./config/app.env")
 	if err != nil {
 		log.Fatalf("เกิดข้อผิดพลาดในการโหลดไฟล์ .env: %v", err)
